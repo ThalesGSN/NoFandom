@@ -1,4 +1,4 @@
-![NoFandomBanner.png](src%2Fimg%2FNoFandomBanner.png)
+![NoFandomBanner.png](public%2FNoFandomBanner.png)
 ## Introduction
 Welcome to the NoFandom Chrome Extension! This open-source extension is designed for users who are looking for wikis that have been forked or moved to new platforms outside of Fandom. Our goal is to make it easier for you to find and access your favorite wikis in their new locations.
 
