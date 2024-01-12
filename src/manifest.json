@@ -4,10 +4,11 @@
   "description": "This simple extension gives the options to redirect to the non-fandom version of a wiki.",
   "version": "1.0",
   "author": "thalesgsn@gmail.com",
+  "homepage_url": "https://github.com/ThalesGSN/NoFandom",
   "icons": {
-    "16": "icon/icon16.png",
-    "48": "icon/icon48.png",
-    "128": "icon/icon128.png"
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
   },
   "action": {
     "default_popup": "popup/index.html"
