@@ -4,7 +4,8 @@
   "description": "A simple extension that gives the option to redirect to the non-fandom version of a wiki.",
   "main": "main.fandom.js",
   "scripts": {
-    "build": "browserify src/main.js -o src/dist/bundle.js --no-bundle-external | uglifyjs src/dist/bundle.js -o src/dist/bundle.min.js --compress --mangle"
+    "build": "browserify src/main.js -o src/dist/bundle.js --no-bundle-external && uglifyjs src/dist/bundle.js -o src/dist/bundle.min.js --compress --mangle && rm src/dist/bundle.js",
+    "zip": "zip -r src/*"
   },
   "author": "thalesgsn",
   "license": "ISC",

@@ -36,7 +36,8 @@ As an open-source project, we welcome donations which can help us maintain the p
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
-- No Contributors yet. Be the first!
+ - Thanks to the people from [shoutwiki.com](https://awa.shoutwiki.com/wiki/Forked_wikis) for providing the list of wikis that have been forked from Fandom. 
+ - No Contributors yet. Be the first!
 
 ---
 
