@@ -1,0 +1,15 @@
+{
+  "name": "noFandom",
+  "version": "1.0.0",
+  "description": "A simple extension that gives the option to redirect to the non-fandom version of a wiki.",
+  "main": "main.fandom.js",
+  "scripts": {
+    "build": "browserify src/main.js -o src/dist/bundle.js --no-bundle-external | uglifyjs src/dist/bundle.js -o src/dist/bundle.min.js --compress --mangle"
+  },
+  "author": "thalesgsn",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-js": "^3.17.4"
+  }
+}

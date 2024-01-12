@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "NoFandom",
+  "description": "This simple extension gives the options to redirect to the non-fandom version of a wiki.",
+  "version": "1.0",
+  "author": "thalesgsn@gmail.com",
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.fandom.com/*",
+        "https://*.fandom.com/*",
+        "http://*.wikia.com/*",
+        "https://*.wikia.com/*"
+      ],
+      "js": ["dist/bundle.min.js"]
+    }
+  ]
+}
